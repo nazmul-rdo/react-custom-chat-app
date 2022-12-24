@@ -1,0 +1,178 @@
+
+.continer {
+    display: flex;
+    justify-content: center;
+  }
+  .massanger {
+    display: flex;
+    width: 80%;
+    height: 100vh;
+    border-right: 3px solid orangered;
+  }
+  /* user massage right part */
+  .outer-massage {
+    width: 20%;
+    padding: 5% 0;
+    gap: 20px;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+  .icon {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #36404a;
+    width: 8%;
+    padding-top: 4%;
+    font-size: 24px;
+  }
+  .icon span{
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .icon span:hover{
+    color: #7269ef;
+  }
+  .single-user {
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 5%;
+    align-items: center;
+    gap: 8%;
+    height: 10%;
+    border: 1px solid #303841;
+    border-radius: 5px;
+    margin: auto;
+    transition: all 3s;
+  }
+  .active{
+    background-color: #36404a;
+  }
+  
+  .single-user:hover{
+    background-color: #36404a;
+  }
+  
+  .user-profile{
+    background-color: #303841;
+    color: white;
+    width: 32%;
+  }
+  
+  .single-user img{
+    width: 15%;
+    border-radius: 50%;
+  }
+  .user-name {
+      width: 85%;
+      gap: 2px;
+      font-size: 13px;
+      align-items: flex-start;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      margin: 0%;
+      line-height: 0;
+  }
+  .user-name h5 {
+    font-size: 15px;
+  }
+  .user-name p {
+    font-weight: 400;
+    color: #abb4b2;
+  }
+  
+  .info{
+    padding: 8%;
+  }
+  .user-header {
+      display: flex;
+      background-color: #262e35;
+      height: 10%;
+      color: white;
+      width: 100%;
+      padding: 0 2%; 
+      position: sticky;
+  }
+  .user-info {
+    display: flex;
+    width: 40%;
+    gap: 5%;
+    align-items: center;
+  
+  }
+  .user-info img{
+    width: 12%;
+    border-radius: 50%;
+  }
+  .user-info h5{
+    width: 80%;
+    margin: 0;
+  }
+  .user-icon {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 6%;
+    align-items: center;
+    height: 90%;
+  }
+  .user-icon span{
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .massage{
+    width: 60%;
+  }
+  .massage-container {
+    height: 80%;
+    display: flex;
+    align-items: flex-end;
+    background-color: #36404a;
+  }
+  .massage-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .massage-show {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0;
+  }
+  .massage-img{
+    width: 12%;
+  }
+  .massage-sender {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    padding: 2%;
+    background-color: #262e35;
+  }
+  ul li {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+  }
+  span.right {
+      display: flex;
+      justify-content: flex-end;
+      padding: 0px 10px;
+  }
+  span.left {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 10px;
+  }
+  
